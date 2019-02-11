@@ -45,7 +45,8 @@ class TopBar extends Component {
 							return <nav key={item.key} onClick={() => {
 								this.onItemClicked(item)
 							}}
-										style={item.key === this.state.selectedKey ? selectedStyle : normalStyle}>{item.name}</nav>;
+										style={item.key === this.state.selectedKey ? selectedStyle : normalStyle}>{item.name}
+										</nav>;
 						})
 					}
 				</div>

@@ -37,8 +37,7 @@ class Record extends Component {
 			uploadAudioFile(form).then(result => {
 				if (result && result.status === 200) {
 					this.chunks = [];
-					this.setState({audioSrc: null});
-					this.setState({isSuccess: true});
+					this.setState({audioSrc: null, isSuccess: true});
 				}
 				else {
 					this.setState({isError: true});
