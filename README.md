@@ -8,3 +8,4 @@ npm install
 ### To run
 npm start
 
+Note: Client should be running on port 3000.
