@@ -1,6 +1,6 @@
-### npm install
-to install packages
+### To install packages
+npm install
 
-### npm start
-To run
+### To run
+npm start
 
