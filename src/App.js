@@ -16,6 +16,7 @@ library.add(faCloud);
 library.add(faSpinner);
 
 class App extends Component {
+
 	componentWillMount() {
 		EnvHelper.initHistory(this.context.router.history);
 	}

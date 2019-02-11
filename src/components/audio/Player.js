@@ -4,6 +4,7 @@ import {grabAudioFileByID} from '../../actions/AudioActions';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome/index.es';
 
 class Player extends Component {
+
 	constructor() {
 		super();
 		this.state = {audioSrc: null, isPlaying: false, isSaving: false, isError: false};
