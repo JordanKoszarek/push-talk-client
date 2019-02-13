@@ -21,6 +21,8 @@ export function grabAudioFileIDs() {
 		if (result.status === 200) {
 			return result.json();
 		}
+	}).catch(err =>{
+		console.log("No audio files recorded.");
 	});
 }
 
